@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrudMatkul">
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Admin"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATKUL"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:text="Simpan"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sesi"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKS"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="78dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI KRS - Hai"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="114dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

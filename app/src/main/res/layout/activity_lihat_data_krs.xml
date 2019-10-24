@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatDataKrs">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="148dp"
+        android:layout_height="19dp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="145dp"
+        android:layout_height="23dp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Mahasiswa"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosen Pengampu"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosen Pengampu"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Mahasiswa"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="145dp"
+        android:layout_height="23dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="148dp"
+        android:layout_height="19dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="145dp"
+        android:layout_height="23dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sesi"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Admin"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode - Matkul"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="148dp"
+        android:layout_height="19dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sesi"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="148dp"
+        android:layout_height="19dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="145dp"
+        android:layout_height="23dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="148dp"
+        android:layout_height="19dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah SKS"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode - Matkul"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="148dp"
+        android:layout_height="19dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------------------------------------------------------------------------"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI KRS - Hai"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah SKS"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="485dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

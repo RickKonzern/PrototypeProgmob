@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DataKelas"></activity>
+        <activity android:name=".LihatDataKrs"></activity>
+        <activity android:name=".CrudKrs" />
+        <activity android:name=".CrudMatkul" />
+        <activity android:name=".LihatDataMatkul" />
+        <activity android:name=".LihatDataMhs" />
+        <activity android:name=".LihatDataDosen" />
+        <activity android:name=".DataDiriMhs" />
+        <activity android:name=".DataDiriDosen" />
+        <activity android:name=".ErrorScreen" />
+        <activity android:name=".DataKelas" />
         <activity android:name=".InputKrsMhs" />
         <activity android:name=".HomeAdmin" />
         <activity android:name=".HomeMhs" />

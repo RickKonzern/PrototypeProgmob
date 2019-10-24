@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataDiriDosen">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gelar"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI KRS - Hai"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Admin"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIDN"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="78dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <SearchView
+        android:layout_width="197dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
